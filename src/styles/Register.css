@@ -1,0 +1,67 @@
+/* Scoped styles for the Register page */
+.register-page {
+    background: linear-gradient(120deg, #a18cd1, #fbc2eb);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .register-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .register-card h2 {
+    margin-bottom: 20px;
+    color: #a18cd1;
+  }
+  
+  .register-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  button {
+    padding: 12px;
+    background-color: #a18cd1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #fbc2eb;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
